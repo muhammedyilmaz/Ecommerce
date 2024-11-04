@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce.Base.Client\Ecommerce.Base.Client.csproj" />
+    <ProjectReference Include="..\Ecommerce.Notification.API.Client\Ecommerce.Notification.API.Client.csproj" />
+    <ProjectReference Include="..\Ecommerce.Order.API.Client\Ecommerce.Order.API.Client.csproj" />
+    <ProjectReference Include="..\Ecommerce.Publisher.API.Client\Ecommerce.Publisher.API.Client.csproj" />
+    <ProjectReference Include="..\Ecommerce.Stock.API.Client\Ecommerce.Stock.API.Client.csproj" />
+  </ItemGroup>
+
+</Project>
